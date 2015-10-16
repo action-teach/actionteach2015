@@ -1,0 +1,86 @@
+= render 'shared/team_nav'
+.container.team-container
+  .row
+    .col-sm-12
+      .center
+        %h1
+          The Team
+  .row
+    .col-sm-3
+      .center
+        = image_tag "#{asset_path "ariel-headshot.jpg"}", class: "img-circle"
+        %p.name Kanye West - Founder and Co-Director 
+      %p 
+        Ariel Koren founded ACTION as a senior in high school. Passionate about teaching and sharing her love for language education, she speaks Spanish, Mandarin Chinese, French, Portuguese, Hebrew, and English. She is from Jacksonville, FL and studies East Asian Languages and Civilizations at Penn. Ariel is a certified Zumba instructor, loves to rap in Chinese, and enjoys 
+        %a{:href => "http://www.youtube.com/watch?v=9wTbgtkH4nI"} translating American popcultures songs. 
+    .col-sm-3
+      .center
+        = image_tag "#{asset_path "paolo-headshot.jpg"}", class: "img-circle"
+        %p.name Paola Gamarra - Co-Director 
+      %p 
+        Paolo is from Lima, Peru. Her intended concentrations are Finance, Operations and Information Management, and Social Impact and Responsibility. Although Paolo only speaks one Romance Language - she doesn't count her elementary understanding of French - her goal is to speak every Romance Language, hopefully by the time she graduates from Penn. Some of her hobbies include yoga, photography, eating macarons and speaking spanglish.         
+    .col-sm-3 
+      .center
+        = image_tag "#{asset_path "anthony-headshot.jpg"}", class: "img-circle"
+        %p.name Anthony Janocko - Business Director
+      %p Anthony is from Jacksonville Florida and is currently a sophomore at the University of Pennsylvania.  He serves as the Treasurer for ACTION and has six years of Spanish speaking experience.  Around campus he is also involved in Penn Microfinance and the Club Swim team. In his spare time he enjoys swimming, literature and history.         
+    .col-sm-3
+      .center
+        = image_tag "#{asset_path "nick-headshot.jpg"}", class: "img-circle"
+        %p.name Nick Mion - Social Events Chair 
+      %p Nick Mion is from Washington DC and is pursuing a dual degree in business and Latino Studies. He used to be an avid swimmer and was on the national team in high school until he got caught up in college life. He speaks English and Spanish and loves to travel.
+  .row
+    .col-sm-3
+      .center
+        = image_tag "#{asset_path "stasha-headshot.png"}", class: "img-circle"
+        %p.name Stasha Sosnowicz - Curriculum Design Director 
+      %p Stasha Sosnowicz has been surrounded by the Spanish language since she was little and wants to give other children the same gift of language.  She hopes to study Spanish in University and travel in Spain for awhile.  
+    .col-sm-3
+      .center
+        = image_tag "#{asset_path "ben-headshot.jpg"}", class: "img-circle"
+        %p.name Benjamin Yahalomi - Marketing Director
+      %p Ben is a junior studying marketing and management at Wharton. Even though he's from the East Coast he has spent multiple summers in San Francisco working at start ups. He also loves travelling, having spent time in foreign places such as Morroco.   
+    .col-sm-3
+      .center
+        = image_tag "#{asset_path "tony-headshot.jpg"}", class: "img-circle"
+        %p.name Tony Xie - Web Master 
+      %p Tony made this website. He is a Junior at Penn studying Philosophy and Computer Science. He is from Vancouver, Canada and likes web development, journalism, and travelling, having spent five months living in South Africa.
+    .col-sm-3              
+      .center
+        = image_tag "#{asset_path "austin-headshot.jpg"}", class: "img-circle"
+        %p.name Austin Tedesco - Class Coordinator  
+      %p Austin is a Freshman in Wharton from Coral Springs, Florida. He loves Spanish and is excited to volunteer for the awesome organization that ACTION is!
+  .row      
+    .col-sm-3
+      .center
+        = image_tag "#{asset_path "ariela-headshot.jpg"}", class: "img-circle"
+        %p.name Ariela Boillat - Curriculum Designer
+      %p Ariela Boillat was born in from El Salvador, but grew up in Costa Rica, so she naturally speaks Spanish and of course English.  She is double majoring in Communication and Economics and minoring in French at the School of Arts and Sciences. Ariela is a passionate horseback rider and in her spare time she also enjoys listening to music and baking.     
+    .col-sm-3
+      .center
+        = image_tag "#{asset_path "micaela-headshot.jpg"}", class: "img-circle"
+        %p.name Micaela Lucero - Curriculum Designer 
+      %p Micaela Lucero is a freshman in the College at Penn hoping to major in Health and Societies. She was born and raised in Santa Fe, New Mexico and was exposed to a unique blend of Spanish-Mexican culture. She teaches with ACTION at Lea Elementary School to share her heritage and language with children.    
+    .col-sm-3 
+      .center
+        = image_tag "#{asset_path "cait-headshot.png"}", class: "img-circle"
+        %p.name Catalina Bermudez - Business Manager
+      %p Catalina Bermudez is from Bogotá, Colombia and is currently a sophomore at the Wharton School. She is concentrating in management and marketing. Apart from being one of the business managers of ACTION, Catalina is also involved in the Wharton Undergraduate Cohort System, the Wharton Undergraduate Latino Association, and Club Colombia. In her spare time, she enjoys running, spinning, and learning new languages.
+    .col-sm-3 
+      .center
+        = image_tag "#{asset_path "isabella-headshot.png"}", class: "img-circle"
+        %p.name Isabella Figueroa - Business Manager
+      %p Isabella Figueroa is from Guatemala City, Guatemala and is currently a sophomore at the Wharton School. She is planning on concentrating in Management and Finance. Isabella is one of the business managers of ACTION and the current board secretary in the Wharton Latino Undergraduate Association. In her spare time she enjoys reading, traveling, and playing tennis. 
+    .col-sm-3     
+  .row
+    .col-sm-12
+      .center
+        = image_tag "#{asset_path "volunteers.jpeg"}", class: "img-thumbnail img-rounded"
+        %h2
+          The ACTION team at Penn!
+  .row
+    .col-sm-12
+      .center 
+        %a.btn.btn-default.btn-team-carousel-toggle{:href => "/", "data-dir" => '%prev '} 
+          Back
+          %i.fa.fa-angle-double-right

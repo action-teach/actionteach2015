@@ -1,0 +1,68 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.img-side-1 {
+  display: table;
+  height: 100%;
+  width: 100%;
+  border-radius: 21em;
+  position: relative;
+  background: image-url("action-1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header-text {
+  font-size: 6em;
+}
+
+.side-img-wrap {
+  height: 500px;
+}
+
+.girl-next-door {
+  font-family: 'The Girl Next Door', cursive;
+}
+
+.img-side-2 {
+  display: table;
+  height: 100%;
+  width: 100%;
+  border-radius: 21em;
+  position: relative;
+  background: image-url("action-2.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.margin-top-none{
+  margin-top: 0;
+}
+
+.mission-statement {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#problem-statement, #innovation-statement, #language-statement, #status-statement, #curriculum-statement{
+  display: none;
+}
+
+.btn {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact-inner {
+  padding-bottom: 2em;
+}
+
+.credits-inner {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}

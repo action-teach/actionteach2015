@@ -1,0 +1,210 @@
+= render 'shared/nav'
+.hero
+  .container
+    .row
+      .col-sm-6
+        %h1.girl-next-door.header-text Take ACTION
+        %h3.left-align.girl-next-door Language and culture education for an empowered global youth.
+        %a.btn.btn-default.btn-lg.scroll-down{:href => "#intro", "data-scroll" => '.definition-shoutout'}
+          %i.fa.fa-level-down.fa-flip-horizontal
+          Learn more
+        %a.btn.btn-default.btn-lg{:href => "https://www.facebook.com/pages/Active-Cross-Cultural-Training-in-Our-Neighborhoods-ACTION/285125764937858?fref=ts"}
+          %i.fa.fa-facebook
+          FB Connect
+        %a.btn.btn-default.btn-lg{:href => "http://www.linkedin.com/groups/ACTION-Organization-7450418?gid=7450418&csrfToken=ajax%3A8575165865117348308&trk=groups_most_popular-h-join&goback=%2Egmp_7450418&report%2Esuccess=N0-laoMxMm20V71jHNJD3l9E4flPFAdI-VJCm4gAF9GEzzCqI38dmzge4X91zfVtzfH1Il2deAdRVStqlfuJzGtFZlHdP9gdz52mI9kSm9HdqOFSmVTml4g919laF3FHI5O4AVgEVIHJzl81IGla44CRl5tz1zydVOE44Vd-ZAfqI3FzZVgc44OmIddS11kIqVXwd4ggZI9BzGGeAptZ-3dVlXuJSOJFSVTtzzIAxddTNSy3H-J-dzTclXk1zGC2mddYd-ZV6j5l"}
+          %i.fa.fa-linkedin
+          Linkedin
+        %a.btn.btn-primary.btn-lg.btn-block.margin-top-10{:href => "https://docs.google.com/a/sas.upenn.edu/forms/d/1nYo0QJ4hEjZOaQ1nlABYf9n0qa4ZcW-AkH3M58f1jbo/viewform"}
+          %i.fa.fa-group
+          Join ACTION as a Penn student
+      .col-sm-6
+        .video-container
+          %iframe{:width => 560, :height => 315, :src => "//www.youtube.com/embed/AEc0fNM7k98?controls=0&showinfo=0&rel=0", :frameborder => "0"}
+.definition-shoutout#definition-carousel.carousel.slide
+  .carousel-inner
+    .item.active
+      .slide1
+        .container
+          .row
+            .col-sm-12
+              .center
+                = image_tag("logo.jpg", class: "action-logo")
+                %ul.values-list.bold
+                  %li.red Culture
+                  %li.orange Passion
+                  %li.dark-red Education
+                  %li.yellow Interaction
+                  %li.yellow Social Innovation
+                  %li.red Language
+                  %li.teal Impact
+                %a.btn.btn-default.btn-lg.btn-definition-carousel-toggle{:href => "#", "data-dir" => 'next'}
+                  See our mission statement
+                  %i.fa.fa-angle-double-right
+    .item
+      .slide2.mission-statement
+        .container
+          .row.mission-statement-row
+            .col-sm-3
+              %ul.nav.nav-pills.nav-stacked.nav-statements
+                %li.active
+                  %a{:href => "#", "data-statement" => "#mission-statement"} 1. Mission Statement
+                %li
+                  %a{:href => "#", "data-statement" => "#problem-statement"} 2. The Problem
+                %li
+                  %a{:href => "#", "data-statement" => "#language-statement"} 3. The Importance of Language
+                %li
+                  %a{:href => "#", "data-statement" => "#innovation-statement"} 4. Our Innovation
+                %li
+                  %a{:href => "#", "data-statement" => "#status-statement"} 5. Our Status
+                %li
+                  %a{:href => "#", "data-statement" => "#curriculum-statement"} 6. Our Curriculum
+                %li
+                  %a.download-mission{:href => "/mission_statement_pdf"}
+                    %i.fa.fa-cloud-download
+                    See the complete mission statement
+              %a.btn.btn-default.btn-definition-carousel-toggle{:href => "#", "data-dir" => "prev"}
+                %i.fa.fa-angle-double-left
+                Back to Values
+            .col-sm-9
+              #mission-statement.active-statement
+                %h1.center.margin-top-none Our Mission
+                %p.lead ACTION (Active Cross-Cultural Training In Our Neighborhoods) is a program designed to promote and celebrate linguistic and cultural diversity by mobilizing volunteers towork towards making foreign language and culture education pervasively accessible within their communities. ACTION aims to empower at-risk students who lack access to foreign language and culture education to live globally.
+                %p.lead ACTION responds to the ubiquitous lack of access to foreign language and culture education by mobilizing volunteers to facilitate cross-cultural training within their communities. ACTION is an educational organization whose impact extends beyond the classroom by empowering students to make internationalism a lifestyle. It does so through its implementation of an innovative curriculum; engaging and accessible extracurricular and academic programming; and its fair, sustainable, and simple financial model.
+              #problem-statement
+                %h1.center.margin-top-none The Problem
+                %p.lead The United States suffers from a severe language education deficiency. Only 85% of America’s elementary students, 42% of its middle school students, and nearly all students at socioeconomically disadvantaged schools, lack access to a foreign language education, which has become a necessity in today’s global world.
+              #language-statement
+                %h1.center.margin-top-none The Importance of Language
+                %p.lead Education research supports that elementary students who study a foreign language in school outperform their peers on standardized tests, have a greater ability to “shift easily between symbol systems”, a larger capacity for creative thinking, more metalinguistic cognizance, and stronger communication skills. The benefits of multilingual competence are indisputable, and that younger children are more able to acquire a foreign language is clear. It is thus the ACTION mission to make foreign language and culture education accessible to every student at a young age –irrespective of his or her background. Childhood exposure is the most secure way to ensure that students acquire true foreign language proficiency during their lifetime. And foreign language and culture proficiency is imperative for Americans who wish to compete in this modern global world.
+              #innovation-statement
+                %h1.center.margin-top-none What we do differently
+                %p.lead ACTION combats the foreign language education deficiency that widens the socioeconomic achievement gap and impedes US students from competing at the global level by increasing access to multicultural education through an innovative approach. We implement a curriculum that integrates cultural and linguistic themes. We also mobilize volunteers in schools within their communities so that they can meet specific community needs. Also, we employ a financial model that ensures accessibility, simplicity, sustainability, and fairness. Lastly, we teach language and culture not just to facilitate academic learning but to inspire students to live more global lives.
+              #curriculum-statement
+                %h1.center.margin-top-none The Curriculum
+                %p.lead The ACTION Curriculum is unique in that it seeks not only to improve the academic experience of the students it reaches, but also to create a new lifestyle for them. Our curriculum is based on the synthesis of extensive foreign language acquisition research. It responds to designated desired student outcomes and makes for an authentic cultural experience by emphasizing pragmatics, not accuracy. It also integrates linguistic themes with authentic cultural lessons.
+                %p.lead
+                  How does the ACTION curriculum ensure an authentic cultural experience? It
+                  does so by emphasizing pragmatics –instead of accuracy –so that students are empowered
+                  to use their language skills in a natural, authentic way. In lieu of such grammar and rote
+                  vocabulary retention drills as those commonly used in traditional foreign language
+                  classes, ACTION students learn new vocabulary while practicing bargaining in Spanish
+                  during a Latin American open air market simulation, or while singing Happy Birthday in
+                  Spanish at a traditional Latin American Quinceanera, or while using Spanish to place an
+                  order at a Guatemalan restaurant. Every single class is culturally relevant and practical;
+                  students learn a new language without feeling like they are studying and concomitantly
+                  expand their knowledge about a different way of life.
+              #status-statement
+                %h1.center.margin-top-none Our Status
+                %p.lead Currently, ACTION reaches hundreds of students in two socioeconomically disadvantaged schools in West Philadelphia (Lea Elementary and Jackson Elementary) and a school for students with learning disabilities in Jacksonville, Florida (The Noble School). The program has two branches: a team of ten volunteer teachers and lesson planners based in Jacksonville, Florida and a twelve-person board that governs over a group of approximately 60 volunteers at the University of Pennsylvania. The program has brought weekly hour-long Spanish classes to students with learning disabilities to The Noble School since September 2010; daily hour-long Spanish classes to Lea Elementary since September 2012, and hour-long after school Spanish classes three days a week to Jackson Elementary since September 2013. In addition to its partnerships with the aforementioned schools, ACTION has partnered with Allen D. Nease High School in Jacksonville, Florida (Nease students are ACTION volunteers), the University of Pennsylvania’s Latino Coalition, Whiz Kid afterschool program, and Impact Magazine.
+.content-section-a
+  .container
+    #about.featurette
+      = image_tag "#{asset_path "action-1.jpg"}", class: "featurette-image img-circle img-responsive pull-left"
+      %h2.featurette-heading
+        We Educate to Empower
+      %p.lead Currently, ACTION reaches hundreds of students in four socioeconomically disadvantaged schools in West Philadelphia and a school for students with learning disabilities in Jacksonville, Florida. The program has two branches: a team of ten volunteer teachers and lesson planners based in Jacksonville, Florida and an executive board that governs over the Curriculum Design, Marketing, Finance, and Recruitment and Development Committees and a group of approximately 60 volunteers at the University of Pennsylvania.
+      %p.lead In addition to its partnerships with the 5 schools it works with, ACTION has partnered with Allen D. Nease High School in Jacksonville, Florida (Nease students are ACTION volunteers), the University of Pennsylvania’s Latino / Latina Coalition, Whiz Kid afterschool program, the UPenn Romance Language & East Asian Language Department, the UPenn Graduate School of Education, and Impact Magazine.
+.content-section-b
+  .container
+    #about.featurette
+      = image_tag "#{asset_path "action-2vfinal.jpg"}", class: "featurette-image img-circle img-responsive pull-right"
+      %h2.featurette-heading
+        Our Story
+      %p.lead ACTION started in one school in Jacksonville, Florida in order to bring foreign language & culture education to students there. Since then, it has expanded to reach hundreds of students in both Jacksonville and Philadelphia, Pennsylvania.
+.team-section.team-background
+  .container
+    .row
+      .col-sm-12.team-inner
+        .center
+          %h1.section-heading.girl-next-door.header-text
+            Our Team
+          %h3
+            ACTION is powered by people who are passionate about spreading new languages and cultures.
+          %a.btn.btn-default.btn-team-carousel-toggle{:href => "/team", "data-dir" => 'prev'}
+            %i.fa.fa-heart
+            Meet us!
+.student-spotlight
+  .student-spotlight-inner
+    .container
+      .row
+        .col-sm-12
+          .center
+            %h1 Student Spotlight
+      .row
+        .col-sm-6
+          .center
+            .video-container
+              %iframe{:width => 560, :height => 315, :src => "//www.youtube.com/embed/1LTR1h7ISWw?rel=0", :frameborder => "0"}
+            %h2 Volunteer of the month - Pia Kochar
+            %p.lead Pia has shown dedication to her role as a tutor and mentor to students, and describes playing telephone with the students as one of her fondest memories. Hear her speak about her experience as a tutor for ACTION.
+        -# .col-sm-6
+        -#   .center
+        -#     = image_tag "#{asset_path "michael-headshot.jpg"}", class: "img-circle"
+        -#     %h2 Volunteer of the month - Michael Coyne
+        -#   %p.lead Michael is a Freshman planning to study Sociology from Monroe, Connecticut. He has had quite a bit of experience with Spanish, taking it all through middle and high school. He also loves working with kids, showing this through teaching children at tennis summer camp. He says that working with kids can be challenging at times, but in the end it is all worth it when he sees that the kid has learned something new.
+        -#   %p.lead At ACTION, Michael tutors kids at Lea Elementary school in Philadelphia in Spanish through ACTION's custom and interactive afterschool curriculum. His most memorable moment in ACTION up to this point has been his students' warm reaction to his return to tutoring after winter break.
+        -#   %p.lead Random facts about Michael: He is a Christmas Eve baby and his favorite quote is by Oscar Wilde, "to define is to limit."
+        .col-sm-6
+          .center
+            = image_tag "#{asset_path "miffy-headshot.jpg"}", class: "img-circle"
+          %h2 Learner of the month - Miffy
+          %p.lead Miffy is our learner of the month! Miffy's favorite colors are pink and purple and her favorite animal is either a zebra or a dinosaur. She likes to watch Finding Nemo and her favorite part of ACTION is coloring.
+          %p.lead Miffy speaks both English and Chinese, but she is also learning Spanish with ACTION. She is a student at Lea Elementary in Philadelphia and is tutored by ACTION on Tuesday's.
+.media.border-bottom
+  .container
+    .row
+      .col-sm-12
+        .center
+          %h1
+            ACTION in the media
+        %p.lead
+          "Today, ACTION is a full-fledged organization designed to promote and celebrate linguistic and cultural diversity by mobilizing volunteers to work toward making foreign language and culture education accessible."
+          %a.em{:href => "http://www.upenn.edu/pennnews/current/2013-12-12/features/penn-students-promote-linguistic-and-cultural-diversity"} - Penn Current
+        %p.lead
+          "For one child in a West Philadelphia elementary school, learning the word elephant in Spanish was the highlight of his school experience."
+          %a.em{:href => "http://www.thedp.com/article/2013/09/penn-mentors-teach-spanish-to-west-philly-students"} - The Daily Pennsylvanian
+        %p.lead
+          "ACTION...[is] devoted to bringing foreign linguistic and cultural education opportunities to those for whom such lines of study are normally inaccessible."
+          %a.em{:href => "http://change-magazine.org/2014/02/ariel-koren-15-action/"} - Change Magazine
+.action-tutor.border-bottom
+  .container
+    .row
+      .col-sm-12
+        .center
+          %h1
+            Want the best private language tutors?
+    .row
+      .col-sm-2
+      .col-sm-8
+        %p.lead
+          ACTION TUTOR is a private tutoring service for Philadelphia-area students and families. We promise fast language learning guaranteed. All tutors are Ivy-league students and fluent speakers of the target language from the University of Pennsylvania. We offer tutoring for all languages, ranging from beginner to advanced. All proceeds will benefit ACTION's nonprofit work in expanding foreign language and culture education for socio-economically disadvantaged students.
+        %p.lead
+          More information will be posted soon. If you are interested in the tutoring services, please email
+          %a{:href => "mailto:akoren@sas.upenn.edu"} akoren@sas.upenn.edu.
+      .col-sm-2
+.contact
+  .contact-inner
+    .container
+      .row
+        .col-sm-12
+          .center
+            %h1
+              Want to take ACTION in your city?
+      .row
+        .col-sm-2
+        .col-sm-8
+          %p.lead
+            ACTION provides custom curricula tailored to each school's needs. We expose students to another culture and language through class lessons, games, and other interactive activities. To lead the movement to bring ACTION to your neighborhood, get in touch below!
+          %p.center
+            %a.btn.btn-primary.btn-lg{:href => "https://docs.google.com/a/sas.upenn.edu/forms/d/1g4cAnKAr8MrTq_bkPhlzyyicA3xK9Wagea5L7Dka20Q/viewform"} Take ACTION!
+          %p.lead
+            For general questions or media inquiries contact us at
+            %a.white{:href => "mailto:action.upenn@gmail.com "} action.upenn@gmail.com
+        .col-sm-2
+.container
+  .credits-inner
+    .row
+      .col-sm-12
+        %h3
+          A site made by
+          %a{:href => "http://www.tonyisme.com"} Tony Xie

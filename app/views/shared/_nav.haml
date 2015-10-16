@@ -1,0 +1,17 @@
+%nav.navbar.navbar-default.navbar-fixed-top
+  .container
+    .navbar-header
+      %a.navbar-brand.girl-next-door{:href => "/", "data-scroll" => '.header'} ACTION
+    %ul.nav.navbar-nav.navbar-right
+      %li.border-bottom-red
+        %a{:href => "#", "data-scroll" => '.definition-shoutout'} Our Mission
+      %li.border-bottom-teal{:class => ('active' if action_name == 'team')}
+        %a{:href => "#", "data-scroll" => '.team-section'} Team 
+      %li.border-bottom-yellow
+        %a{:href => "#", "data-scroll" => '.student-spotlight'} Spotlight         
+      -# %li.border-bottom-lilac
+      -#   %a{:href => "#", "data-scroll" => '.content-section-a'} Media
+      %li.border-bottom-dark-red
+        %a{:href => "#", "data-scroll" => '.action-tutor'} ACTION tutor 
+      %li.border-bottom-beige
+        %a{:href => "#", "data-scroll" => '.contact'} Take ACTION

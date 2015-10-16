@@ -1,0 +1,14 @@
+.navbar {
+  margin-bottom: 0;
+  font-family: 'The Girl Next Door', cursive;
+  font-size: 18px;
+}
+
+.nav {
+  font-family: 'The Girl Next Door', cursive;
+  font-size: 18px;
+}
+
+a.navbar-brand {
+  font-size: 28px;
+}
