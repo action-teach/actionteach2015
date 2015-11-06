@@ -3,6 +3,7 @@ Actionteach::Application.routes.draw do
   get 'team' => 'static_pages#team'
   get 'mission_statement_pdf' => 'static_pages#mission_statement_pdf'
   get 'test' => 'static_pages#test'
+  get "paypal_express/checkout"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -57,4 +58,5 @@ Actionteach::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  #   
 end
